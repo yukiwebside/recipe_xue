@@ -29,7 +29,7 @@ div, main, article, section, aside, hgroup, header, footer, address, nav {
 body {
 	font-size: 25px;
 	font-weight: normal;
-	background: #DEB32E;
+	background: #fff;
 }
 
 /*	Generally, you will only want one container element in
