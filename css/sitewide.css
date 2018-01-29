@@ -1,0 +1,111 @@
+/* ------------------------------------------------------------ */
+/* imports and utilities */
+
+/* 3rd-party CSS files */
+@import 'vendor/h5bp-head.css';
+@import 'vendor/normalize.css';
+@import 'vendor/h5bp-tail.css';
+
+/* use a more intuitive box sizing model (http://is.gd/wNVjAo) */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/* Scale down images and embedded videos so they don't overflow their parents */
+img, object { max-width: 100%; }
+
+/*	Development/layout aid. Remove the comments
+	on this rule in order to draw boxes around DIVs
+	and other elements used for layout. */
+/* 
+div, main, article, section, aside, hgroup, header, footer, address, nav {
+	border: 1px solid rgba(255,0,0,0.15) !important;
+	background: rgba(255,0,0,0.05) !important;		
+}
+*/
+
+
+/* ------------------------------------------------------------ */
+/* start project-specifc styles below this line */
+
+body {
+	font-size: 25px;
+	font-weight: normal;
+	background: #DEB32E;
+}
+
+/*	Generally, you will only want one container element in
+	the document, wrapping around the main content area. 
+	If you have more than one container, you are probably doing
+	something wrong. 	
+*/
+.container {
+	margin-top: 2em;
+	margin-right: auto;
+	margin-bottom: 2em;
+	margin-left: auto;
+	width: 90%;
+	max-width: 850px;
+	padding-left: 1em;
+	padding-top: 0.25em;
+	border: 10px solid #EBDA3E;
+	background: #EBDA3E;
+}
+
+h6 {
+	font-family: Arial, serif;
+	font-style: italic;
+	text-align: right;
+	font-size: 20px;
+	font-weight: light;
+	line-height: 0em;
+}
+
+h4{
+	color:#fff;
+	line-height: -6em;
+	font-family: "Brush Script MT";
+	font-size: 60px;
+	text-align: middle;
+}
+
+hr {
+	border-width: 4px;
+	background: #95E3F1;
+}
+h1 {
+	font-family: "Futura";
+	font-size: 80px;
+	text-transform: uppercase;
+	font-weight:bold;
+	line-height: 0.7em;
+}
+
+h2 {
+	font-size: 45px;
+	font-weight: bold;
+}
+
+ol {
+	font-size: 22px;
+	color: #000;
+	padding-right: 5em;
+	padding-bottom: 2em;
+	padding-left: 2.2em;
+	padding-top: 0.6em;
+	font-family: "Times New Roman";
+}
+i {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+em{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+}
+
+
+
+
+
+
