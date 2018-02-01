@@ -109,11 +109,11 @@ p {
 	width:500px;
 	padding-top: 1em;
 	padding:30px;
-	border:20px solid #000;
+	border:5px solid #000;
 }
 p.end {
 	margin:10px auto 10px auto;
-	bakground:#75929A;
+	background-color: #75929A;
 	text-align:center;
 	color:#FF0000;
 }
