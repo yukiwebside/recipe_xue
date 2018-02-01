@@ -29,7 +29,8 @@ div, main, article, section, aside, hgroup, header, footer, address, nav {
 body {
 	font-size: 25px;
 	font-weight: normal;
-	background: #fff;
+	background: #C99647;
+
 }
 
 /*	Generally, you will only want one container element in
@@ -46,25 +47,16 @@ body {
 	max-width: 850px;
 	padding-left: 1em;
 	padding-top: 0.25em;
-	border: 10px solid #EBDA3E;
-	background: #EBDA3E;
-}
-
-h6 {
-	font-family: Arial, serif;
-	font-style: italic;
-	text-align: right;
-	font-size: 20px;
-	font-weight: light;
-	line-height: 0em;
+	border: 10px solid url("../img/hip-square/hip-square.png");
+	background: url("../img/hip-square/hip-square.png");
 }
 
 h4{
-	color:#fff;
-	line-height: -6em;
+	color:#4CBD42;
+	line-height: 0.1em;
 	font-family: "Brush Script MT";
 	font-size: 60px;
-	text-align: middle;
+	text-align: center;
 }
 
 hr {
@@ -96,15 +88,35 @@ ol {
 i {
 	font-size: 30px;
 	font-weight: bold;
+	text-align:right;
 }
 
-em{
-	font-style: normal;
-	font-weight: bold;
-	font-size: 24px;
+em {
+	text-align: right;
+	font-style: italic;
 }
 
+img {
+	-moz-box-shadow: 0 0 10px #777777;
+	-webkit-box-shadow: 0 0 10px #777777;
+	box-shadow: 0 0 10px #777777;
+	text-align:center;
+}
 
+p {
+	text-align: center;
+	font-size: 60px;
+	width:500px;
+	padding-top: 1em;
+	padding:30px;
+	border:20px solid #000;
+}
+p.end {
+	margin:10px auto 10px auto;
+	bakground:#75929A;
+	text-align:center;
+	color:#FF0000;
+}
 
 
 
